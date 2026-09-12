@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Generated wordlist / random-mode output, not project sources
+wordlist.txt
+result.txt
+random_data.txt
+*.generated.txt

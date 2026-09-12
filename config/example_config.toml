@@ -1,0 +1,17 @@
+# WL Gen example configuration file
+# Load with: wlgen -g -wd Rahul --config config.toml
+
+[generation]
+case = ["lower", "capitalize"]
+prefixes = []
+suffixes = ["Team", "2025"]
+numbers = ["1", "12", "123", "2024", "2025"]
+symbols = ["!", "@", "#"]
+separators = ["", "_"]
+substitutions = false
+combine_words = false
+min_length = 6
+max_length = 20
+
+[output]
+deduplicate = true
