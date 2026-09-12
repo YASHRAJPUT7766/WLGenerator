@@ -89,7 +89,7 @@ sudo apt update
 sudo apt install -y python3 python3-pip git
 
 # 2. Clone the repository
-git clone <this-repository>
+git clone https://github.com/YASHRAJPUT7766/WLGenerator.git
 cd wlgen
 
 # 3. Install
@@ -110,7 +110,7 @@ pkg update && pkg upgrade -y
 pkg install -y python git
 
 # 2. Clone the repository
-git clone <this-repository>
+git clone https://github.com/YASHRAJPUT7766/WLGenerator.git
 cd wlgen
 
 # 3. Install
@@ -135,7 +135,7 @@ pip install . --break-system-packages
 <summary><b>🍎 macOS / 🪟 Windows (WSL)</b></summary>
 
 ```bash
-git clone <this-repository>
+git clone https://github.com/YASHRAJPUT7766/WLGenerator.git
 cd wlgen
 pip install .
 wlgen --version
@@ -687,7 +687,7 @@ below. Notable design choices:
 To set up a development environment:
 
 ```bash
-git clone <this-repository>
+git clone https://github.com/YASHRAJPUT7766/WLGenerator.git
 cd wlgen
 pip install -e ".[dev]"
 ```
